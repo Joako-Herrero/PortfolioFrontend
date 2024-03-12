@@ -1,0 +1,1305 @@
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0,50%, 100%, 0);
+      transform: translate3d(0,50% ,100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+}
+  
+@keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 50%, 100%, 0);
+      transform: translate3d(0, 50%,100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+}
+p{
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+@media only screen and (max-width: 768.98px) {
+    /* Estilos para dispositivos pequeños */
+    section h2{
+        position: sticky;
+        top:0;
+        text-align: center;
+        font-family: "Jacquarda Bastarda 9", serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+    main{
+        margin:0;
+    }
+    
+
+    /* Header Section */
+    header {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        background-color: #fff;
+        overflow-y: hidden;
+        overflow-x: hidden;
+       
+    }
+
+    
+    header .triangle{
+        height: 150vh;
+        width: 190vh;
+        background-color: #000;
+        transform: rotate(15deg);
+        position: absolute;
+        top: 75%;
+        right: 20%;
+    }
+
+    header aside nav{
+        display: none;
+        height: 100vh;
+        width: 15rem;
+        position: absolute;
+        right: 0%;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        text-align: center;
+       background-color: #000;
+
+    }
+    
+    header aside nav .nav-triangle{
+        height: 11.5vh;
+        width: 23vw;
+        background-color: #fff;
+        transform: rotate(-15deg);
+        position: absolute;
+        top: -4%;
+        right: -1.5%;
+    }
+
+    header aside nav .floriture{
+       position: relative;
+        top: 40%;
+        right: 90%;
+        height: 4rem;
+        transform: rotate(-90deg);
+    }
+
+    header .nav-Name{
+        font-size: 3rem;
+        height: 10.5rem;
+        margin-bottom: 7rem;
+        color: #fff;
+    }
+
+    header .nav-items a{ 
+        font-family: "Kode Mono", monospace;
+        font-weight: 400;
+        color: #fff;
+        list-style: none;
+        font-size: 1.5rem;
+        padding: 0;
+        
+    }
+
+    header .rainbow-text {
+        font-size: 4rem;
+        font-family: "Kode Mono", monospace;
+        font-weight: 400;
+        color: #000;
+        position: absolute;
+        width: 60vw;
+        text-shadow: 
+            0 calc(1 * 0.07em) 0 #fff,
+            0 calc(2 * 0.06em) 0 #000;
+        z-index: 150;
+        top: 6.2vh;
+        left: 2vw;
+        cursor: default;
+    }
+
+    header .social-media{
+        display: flex;
+        list-style:none;
+        position: absolute;
+        bottom: 0;
+        z-index: 160;
+        
+    }
+
+
+    header .social-media li a img{
+       display: none;
+    }
+
+    header .social-media a{
+        font-family: "Kode Mono", monospace;
+        font-weight: 400;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    header .social-media li{
+        margin: .3rem;
+    }
+    /* Header Section */
+
+    /* About Me Section */
+
+    .aboutMeSection{
+        background-color: #2c2b2b;
+        height: auto;
+        color: #ffffff;
+        background-image: url('./assets/flowers.jpg') ;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        
+    }
+
+    .aboutMeSection h2{
+        background: rgba(205, 87, 84, 0.23);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+        color: #ffffff;
+        z-index: 245;
+        border-bottom:  1px solid #cd5754;
+    }
+
+    .aboutMeSection .paragraphs{
+       margin-top: 4%;  
+       
+    }
+
+    .aboutMeSection .texto{
+        padding: .4rem;
+        width: 85vw;
+        margin: 0 auto;
+        margin-bottom: 5px;
+
+        font-size: 1rem;
+        background-color: transparent;   
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);    
+        border-radius: 20px; 
+
+    }
+
+    /* About Me Section */
+
+    /* Education Section */
+   
+    .educationSection{
+        background-color: #f5f0f0;
+        background-image: url('./assets/dengar.jpg') ;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        display: inline-block;
+        width: 100vw;
+        color:#ffffff;
+    }
+
+    .educationSection h2{
+        background: rgba(255, 255, 255, 0.166);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+
+        z-index: 245;
+        border-bottom: 1px solid #c9cdc9b3;
+    }
+
+    .educationSection .texto{
+        padding: 1rem;
+        width: 80vw;
+        margin: 0 auto 2rem;
+        background-color:  rgba(39, 9, 9, 0.815);
+        border-radius: 16px;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+    
+
+    .educationSection .education-item{
+        margin: 1rem;
+        background: rgba(39, 9, 9, 0.308);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        width: 90vw;
+        position: relative;
+        border: 1px solid #ffffffb7;
+    }
+   
+    .educationSection .imageCertificate{
+        display: none;
+    }
+    .educationSection .titleImage{
+        margin-left: 1rem;
+    }
+    .educationSection .tittleCertificate{
+        display: inline-block;
+        
+    }
+    .educationSection .texto-education{
+        padding: 1rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+    /* Education Section */
+
+    /* Projects Section */
+    .projectsSection{
+        height: auto;
+        display: inline-block;    
+        max-width: 100%;
+        width: 100vw;
+        background-image: url('./assets/garden.jpg') ;
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+        transform-origin: center;
+    }
+
+    .projectsSection h2{
+        z-index: 130;
+        background: #0726126b;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.158);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+        border-bottom: 1px solid #016901;
+        padding-bottom: .5rem;
+        
+    }
+
+    .projectsSection .texto{
+        padding: 1rem;
+        width: 80vw;
+        margin: 0 auto 2rem;
+        background-color: #dbddc352;   
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);    
+        border-radius: 20px; 
+
+    }
+    .projectsSection .card-text {
+        padding: 0;
+    }
+
+    .projectsSection .project-title {
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        font-size: 1.3rem;
+        background-color: #64665852;   
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);    
+        border-radius: 20px; 
+    }
+
+ 
+
+    
+   
+    .projectsSection .techs ul{
+        list-style: none;
+        margin: 0;
+        margin-top:.3rem;
+        padding: .5rem;
+
+    }
+    .projectsSection .techs li{
+        list-style: none;
+        border: solid 2px rgba(233, 184, 25, 0.918);
+        border-radius: 20px;
+        display:inline-block;
+        padding: .3rem;
+        background-color: rgba(255, 212, 22, 0.781);
+        font-size: .7rem;
+    }
+    
+    /* Projects Section */
+
+    /* Contact Section */
+    .contactSection{
+        height: 100vh;
+        background-color: #273b74;   
+        position: relative;
+        background-image: url('./assets/mountain.png') ;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contactSection h2{
+        z-index: 130;
+        background: rgba(134, 133, 133, 0);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+        border:none;
+        color: #ffffff;
+    }
+
+    .contactSection .form-container{
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.586);
+
+        padding: 1rem;
+        height:62vh;
+        width: 80vw ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        position: absolute;
+        top: 25%;
+       left: 10%;
+        
+    }
+    
+    .contactSection .form-container{
+        font-size: 2rem;
+
+        
+    }
+
+  
+
+    .contact-form .form-control {
+        border: none;
+        border-bottom: 1px solid #ef3333;
+        background: transparent;
+        border-radius: 0;
+        padding-left: 0;
+        box-shadow: none;
+
+    }
+ 
+    .contact-form .form-control::placeholder{
+      color: #ffffff;
+        
+    }
+    .contact-form .form-control:focus::placeholder{
+        color: #ef3333;
+          
+    }
+   
+    .contact-form .send{
+        margin-top: 20px;        
+    }
+
+    .contactSection .send .btn{
+        color: #ef3333;
+        border: 1px solid #ef3333;
+    }
+
+    .contactSection .send .btn:hover{
+        color: #ffffff;
+
+        background-color: #ef3333;
+    }
+    
+    
+
+    /* Contact Section */
+
+    /* Footer Section */
+    footer{
+        margin: 0;
+        height:4rem;
+        
+       position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    
+    footer .footer-triangle{
+        height: 150vh;
+        width: 190vh;
+        background-color: #000;
+        transform: rotate(-15deg);
+        position: absolute;
+        top: 75%;
+        right: 0;
+        left: 25%;
+    }
+    /* Footer Section */ 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199.98px) {
+    /* Estilos para tabletas en orientación horizontal y pequeños portátiles */
+    section h2{
+        position: sticky;
+        top:0;
+        text-align: center;
+        font-family: "Jacquarda Bastarda 9", serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+    main{
+        margin:0;
+    }
+    
+
+    /* Header Section */
+    header {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        background-color: #fff;
+        overflow-y: hidden;
+        overflow-x: hidden;
+       
+    }
+
+    
+    header .triangle{
+        height: 150vh;
+        width: 190vh;
+        background-color: #000;
+        transform: rotate(15deg);
+        position: absolute;
+        top: 80%;
+        right: 25%;
+    }
+
+    header aside nav{
+
+        height: 100vh;
+        width: 15rem;
+        position: absolute;
+        right: 0%;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        text-align: center;
+        background-color: #000;
+    }
+
+    header aside nav ul{
+        padding: 0;
+    }
+    header aside nav ul li{
+       list-style: none;
+    }
+
+    header aside nav .nav-triangle{
+        height: 18vh;
+        width: 44vw;
+        background-color: #fff;
+        transform: rotate(-15deg);
+        position: absolute;
+        top: -7%;
+        right: -1.5%;
+    }
+
+    header aside nav .floriture{
+       position: relative;
+        top: 40%;
+        right: 70%;
+        height: 4rem;
+        transform: rotate(-90deg);
+    }
+
+    header .nav-Name{
+        font-size: 3rem;
+        height: 10.5rem;
+        margin-bottom: 7rem;
+        color: #fff;
+    }
+
+    header .nav-items a{ 
+        font-family: "Kode Mono", monospace;
+        font-weight: 400;
+        color: #fff;
+        list-style: none;
+        font-size: 1.5rem;
+        padding: 0;
+
+    }
+
+    header .rainbow-text {
+        font-size: 4rem;
+        font-family: "Kode Mono", monospace;
+        font-weight: 400;
+        color: #000;
+        position: absolute;
+        width: 60vw;
+        text-shadow: 
+            0 calc(1 * 0.07em) 0 #fff,
+            0 calc(2 * 0.06em) 0 #000;
+        z-index: 150;
+        top: 6.2vh;
+        left: 2vw;
+        cursor: default;
+    }
+
+    header .social-media{
+        display: flex;
+        list-style:none;
+        position: absolute;
+        bottom: 0;
+        z-index: 160;
+        
+    }
+
+    header .social-media li a img{
+        height: 2rem;
+        width: auto;
+    }
+
+    header .social-media a{
+        font-family: "Kode Mono", monospace;
+        font-weight: 400;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    header .social-media li{
+        margin: .3rem;
+    }
+    /* Header Section */
+
+    /* About Me Section */
+
+    .aboutMeSection{
+        background-color: #2c2b2b;
+        height: auto;
+        color: #ffffff;
+        background-image: url('./assets/flowers.jpg') ;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        
+    }
+
+    .aboutMeSection h2{
+        background: rgba(205, 87, 84, 0.23);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+        color: #ffffff;
+        z-index: 245;
+        border-bottom:  1px solid #cd5754;
+    }
+
+    .aboutMeSection .paragraphs{
+       margin-top: 4%;  
+       
+    }
+
+    .aboutMeSection .texto{
+        padding: .4rem;
+        width: 60vw;
+        margin:0 auto;
+        margin-bottom: 5px;
+        color: #ffffff;
+        font-size: 1rem;
+        background-color: transparent;   
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);    
+        border-radius: 20px; 
+    }
+
+    /* About Me Section */
+
+    /* Education Section */
+   
+    .educationSection{
+        background-color: #f5f0f0;
+        background-image: url('./assets/dengar.jpg') ;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        display: inline-block;
+        width: 100vw;
+        color:#ffffff;
+    }
+
+    .educationSection h2{
+        background: rgba(255, 255, 255, 0.166);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+
+        z-index: 245;
+        border-bottom: 1px solid #c9cdc9b3;
+    }
+
+    .educationSection .texto{
+        padding: 1rem;
+        width: 80vw;
+        margin: 0 auto 2rem;
+        background-color:  rgba(39, 9, 9, 0.815);
+        border-radius: 16px;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+    
+
+    .educationSection .education-item{
+        margin: 0 auto 1rem;
+        background: rgba(39, 9, 9, 0.308);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        width: 90vw;
+        position: relative;
+        border: 1px solid #ffffffb7;
+    }
+   
+    .educationSection .imageCertificate{
+        display: none;
+    }
+    .educationSection .titleImage{
+        margin-left: 1rem;
+    }
+    .educationSection .tittleCertificate{
+        display: inline-block;
+    }
+    .educationSection .texto-education{
+        padding: 1rem;
+        width: 90%;
+        margin: 0 auto;
+        font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+    }
+    /* Education Section */
+
+    /* Projects Section */
+    .projectsSection{
+        height: auto;
+        display: inline-block;    
+        max-width: 100%;
+        width: 100vw;
+        background-image: url('./assets/garden.jpg') ;
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+        transform-origin: center;
+    }
+
+    .projectsSection h2{
+        z-index: 130;
+        background: #0726126b;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.158);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+        border-bottom: 1px solid #016901;
+        padding-bottom: .5rem;
+        
+    }
+
+    .projectsSection .texto{
+        padding: 1rem;
+        width: 80vw;
+        margin: 0 auto 2rem;
+        background-color: #cdcfb66c;   
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);    
+        border-radius: 20px; 
+
+    }
+    .projectsSection .card-text {
+        padding: 0;
+    }
+
+    .projectsSection .project-title {
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        font-size: 1.3rem;
+        background-color: #64665852;   
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);    
+        border-radius: 20px; 
+    }
+
+ 
+
+    
+   
+    .projectsSection .techs ul{
+        list-style: none;
+        margin: 0;
+        margin-top:.3rem;
+        padding: .5rem;
+
+    }
+    .projectsSection .techs li{
+        list-style: none;
+        border: solid 2px rgba(233, 184, 25, 0.918);
+        border-radius: 20px;
+        display:inline-block;
+        padding: .3rem;
+        background-color: rgba(255, 212, 22, 0.781);
+        font-size: .7rem;
+    }
+    
+    /* Projects Section */
+
+    /* Contact Section */
+    .contactSection{
+        height: 100vh;
+        background-color: #273b74;   
+        position: relative;
+        background-image: url('./assets/mountain.png') ;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contactSection h2{
+        z-index: 130;
+        background: rgba(134, 133, 133, 0);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+        border:none;
+        color: #ffffff;
+    }
+
+    .contactSection .form-container{
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.586);
+
+        padding: 1rem;
+        height:62vh;
+        width: 80vw ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        position: absolute;
+        top: 25%;
+       left: 10%;
+        
+    }
+    
+    .contactSection .form-container{
+        font-size: 2rem;
+
+        
+    }
+
+  
+
+    .contact-form .form-control {
+        border: none;
+        border-bottom: 1px solid #ef3333;
+        background: transparent;
+        border-radius: 0;
+        padding-left: 0;
+        box-shadow: none;
+
+    }
+ 
+    .contact-form .form-control::placeholder{
+      color: #ffffff;
+        
+    }
+    .contact-form .form-control:focus::placeholder{
+        color: #ef3333;
+          
+    }
+   
+    .contact-form .send{
+        margin-top: 20px;        
+    }
+
+    .contactSection .send .btn{
+        color: #ef3333;
+        border: 1px solid #ef3333;
+    }
+
+    .contactSection .send .btn:hover{
+        color: #ffffff;
+
+        background-color: #ef3333;
+    }
+    
+    
+
+    /* Contact Section */
+
+    /* Footer Section */
+    footer{
+        margin: 0;
+        height:4rem;
+        
+       position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    
+    footer .footer-triangle{
+        height: 150vh;
+        width: 190vh;
+        background-color: #000;
+        transform: rotate(-15deg);
+        position: absolute;
+        top: 75%;
+        right: 0;
+        left: 25%;
+    }
+    /* Footer Section */ 
+}
+@media only screen and (min-width: 1200px) {
+
+    section h2{
+        position: sticky;
+        top:0;
+        text-align: center;
+        font-family: "Jacquarda Bastarda 9", serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+    main{
+        margin:0;
+    }
+     
+    /* Header Section */
+    header {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        
+    }
+
+    header  nav{
+        display: inline-block;
+        border: 2px solid #AFB5E8;
+        text-align: center;
+        border-radius: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: .4rem;    
+
+    }
+    
+    header  nav ul{
+        display: flex;
+        margin-bottom: 0;
+    }
+
+    header  nav ul li{
+        list-style: none;
+        margin-right: 40px;
+    }
+
+  
+
+    header .nav-items a{ 
+        font-family: "Kode Mono", monospace;
+        font-weight: 400;
+        list-style: none;
+        font-size: 1.5rem;
+        padding: 0;
+        color: #AFB5E8;
+    }
+    header nav ul li a:hover{ 
+        font-size: 1.7rem;
+        color: #7b83d6;
+        
+    }
+    header .rainbow-text {
+        font-size: 4rem;
+        font-family: "Kode Mono", monospace;
+        font-weight: 400;
+        z-index: 150;
+        cursor: default;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);    
+        color: #ef3333;
+    }
+    header .textHeader {
+        font-size: 1rem;
+        font-family: "Kode Mono", monospace;
+        font-weight: 400;
+        z-index: 150;
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        transform: translate(-50%, -50%);    
+    }
+
+    header .social-media{
+        display: flex;
+        list-style:none;
+        position: absolute;
+        bottom: 0;
+        z-index: 160;
+        left: 3%;
+    }
+
+    header .social-media li a img{
+        height: 2rem;
+        width: auto;
+    }
+
+    header .social-media a{
+        font-family: "Kode Mono", monospace;
+        font-weight: 400;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    header .social-media li{
+        margin: .3rem;
+    }
+    /* Header Section */
+
+    /* About Me Section */
+
+    .aboutMeSection{
+        background-color: #bfdec2;
+        height: auto;
+        
+
+    }
+
+    .aboutMeSection h2{
+        background: rgba(224, 223, 223, 0.23);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+        color: #45B950;
+        z-index: 245;
+        border-bottom:  1px solid #45B950;
+        border-top: 1px solid #45B950;
+    }
+
+    .aboutMeSection .paragraphs{
+       margin-top: 1rem;
+    }
+
+    .aboutMeSection .texto{
+        padding: .4rem;
+        width: 60vw;
+        margin: 0 auto;
+        font-size: 1.3rem;   
+        padding-bottom: .7rem; 
+    }
+    .aboutMeSection .texto:last-child{
+        padding-bottom: 2rem; 
+    }
+
+    /* About Me Section */
+
+    /* Education Section */
+   
+    .educationSection{
+      background-color: #E1E8F0;
+        margin: 0;
+        display: inline-block;
+        width: 100vw;
+        color:#000;
+        
+    }
+
+    .educationSection h2{
+        padding-top: 0;
+        background: rgba(255, 255, 255, 0.166);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+        color:#00C5DF;
+        z-index: 245;
+        border-bottom: 1px solid #00C5DF;
+        border-top: 1px solid #00C5DF;
+    }
+
+    .educationSection .texto{
+        padding: 1rem;
+        width: 80vw;
+        margin: 0 auto 2rem;
+        font-size: 1.2rem;
+    }
+    
+   
+
+    .educationSection .education-item{
+       
+        margin: 1rem;
+        background: #d7dfea;
+       
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        
+        width: 60vw;
+        position: relative;
+        left: 5%;
+        border: 1px solid #00C5DF;
+    }
+    .educationSection .left{
+
+        position: relative;
+        left: 32%;
+    }
+    .educationSection .imageCertificate{
+        width: 4rem;
+        height: auto;
+        margin-bottom: .5rem;
+        position: absolute;
+
+    }
+    .educationSection .titleImage{
+        margin-left: 1rem;
+    }
+    .educationSection .titleCertificate{
+        margin-top: .5rem;
+        font-family: "Chakra Petch", serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .educationSection .texto-education{
+        padding: 1rem;
+        width: 75%;
+        margin: 0 auto;
+       
+    }
+    /* Education Section */
+
+    /* Projects Section */
+    .projectsSection{
+        height: auto;
+        display: inline-block;    
+        max-width: 100%;
+        width: 100vw;
+       background-color: #f0e9e1;
+        color: #ffffff;
+        transform-origin: center;
+    }
+
+    .projectsSection h2{
+        z-index: 130;
+        color: #ef3333;
+        border-bottom: 1px solid #ef3333;
+        border-top: 1px solid #ef3333;
+        padding-bottom: .5rem;
+        background: rgba(234, 234, 234, 0.3);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px); 
+    }
+
+    .projectsSection .texto{
+        padding: 1rem;
+        width: 80vw;
+        margin: 0 auto 2rem;
+        color: #000;
+        font-size: 1.2rem;
+    }
+    .projectsSection .card-text {
+        padding: 0;
+    }
+
+    .projectsSection .project-title {
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        font-size: 1.4rem;
+        font-family: "Chakra Petch", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .projectsSection .card{
+        border: #ef3333 solid 1px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        margin: 0 auto;
+    }
+    .projectsSection .card:hover{
+        border: #a82222 solid 1px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.349);
+        
+       
+    }
+    .projectsSection .img-card{
+        border-radius: 6px;
+        margin:0 5px;
+    }
+
+    .projectsSection .btn-outline{
+        color: #ef3333;
+       padding-bottom: .5rem;
+        border: 1px solid #ef3333;
+    }
+    .projectsSection .btn-outline:hover{
+        background-color: #ef3333;
+       
+        color: #fff;
+    }
+    .projectsSection .techs ul{
+        list-style: none;
+        margin: 0;
+        margin-top:.3rem;
+        padding: .5rem;
+
+    }
+    .projectsSection .techs li{
+        list-style: none;
+        border-radius: 20px;
+        display:inline-block;
+        padding: .3rem;
+        padding-left: .7rem;
+        padding-right: .7rem;
+        background-color: #ef3333;
+        font-size: .7rem;
+        color: #fff;
+    }
+    .projectsSection .techs li:hover{
+       cursor: default;
+    }
+    /* Projects Section */
+
+    /* Contact Section */
+    .contactSection{
+        height: 100vh;
+        background-color: #273b74;   
+        position: relative;
+        background-image: url('./assets/mountain.png') ;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contactSection h2{
+        z-index: 130;
+        background: rgba(134, 133, 133, 0);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.3px);
+        -webkit-backdrop-filter: blur(3.3px);
+        border:none;
+        color: #ffffff;
+    }
+
+    .contactSection .form-container{
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.586);
+
+        padding: 1rem;
+        height:62vh;
+        width: 40vw ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        position: absolute;
+        top: 25%;
+        left: 30%;
+        
+    }
+    
+    .contactSection .form-container{
+        font-size: 2rem;
+
+        
+    }
+
+  
+
+    .contact-form .form-control {
+        border: none;
+        border-bottom: 1px solid #ef3333;
+        background: transparent;
+        border-radius: 0;
+        padding-left: 0;
+        box-shadow: none;
+
+    }
+ 
+    .contact-form .form-control::placeholder{
+      color: #ffffff;
+        
+    }
+    .contact-form .form-control:focus::placeholder{
+        color: #ef3333;
+          
+    }
+   
+    .contact-form .send{
+        margin-top: 20px;        
+    }
+
+    .contactSection .send .btn{
+        color: #ef3333;
+        border: 1px solid #ef3333;
+    }
+
+    .contactSection .send .btn:hover{
+        color: #ffffff;
+
+        background-color: #ef3333;
+    }
+    
+    
+
+    /* Contact Section */
+
+    /* Footer Section */
+    footer{
+        margin: 0;
+        position: absolute;
+        height:4rem;
+        width: 100vw;        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+
+    
+    /* Footer Section */ 
+}
