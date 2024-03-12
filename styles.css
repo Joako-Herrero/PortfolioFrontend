@@ -399,10 +399,10 @@ p{
 
     /* Footer Section */
     footer{
+        max-width: 100%;
         margin: 0;
-        position: absolute;
         height:4rem;
-        width: 100vw;        
+        width: 100vw;  
         display: flex;
         align-items: center;
         justify-content: center;
@@ -817,10 +817,10 @@ p{
 
     /* Footer Section */
     footer{
+        max-width: 100%;
         margin: 0;
-        position: absolute;
         height:4rem;
-        width: 100vw;        
+        width: 100vw;  
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1241,10 +1241,10 @@ p{
 
     /* Footer Section */
     footer{
+        max-width: 100%;
         margin: 0;
-        position: absolute;
         height:4rem;
-        width: 100vw;        
+        width: 100vw;  
         display: flex;
         align-items: center;
         justify-content: center;
